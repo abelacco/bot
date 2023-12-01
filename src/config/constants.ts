@@ -1,0 +1,15 @@
+export enum PAYMENTSTATUS {
+  PENDING = 1,
+  ACCEPTED = 2,
+  REJECTED = 3,
+}
+export const STEPS = {
+  INIT: '0',
+  PUT_DNI: '1',
+  SELECT_SPECIALTY: '2',
+  INSERT_DATE: '3',
+  SELECT_DOCTOR: '4',
+  SELECT_PAYMENT: '5',
+  SUBMIT_VOUCHER: '6',
+  SEND_CONFIRMATION: '7',
+};
